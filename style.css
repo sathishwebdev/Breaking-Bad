@@ -65,8 +65,9 @@ img{
 @media screen and (max-width: 560px) {
     .card{
         width: 100%;
-        padding: 3%;
-        
+        /* padding: 3%; */
+        margin: 3%;
+        overflow: hidden;
     }
     .card-body{
         max-width: 100%;
@@ -82,7 +83,7 @@ img{
     }
     img{
         height: unset;
-        width: 88vw;
+        width: 100vw;
         margin-left: auto;
         margin-right: auto;
     }
