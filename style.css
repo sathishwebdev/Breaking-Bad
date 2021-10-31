@@ -16,12 +16,17 @@ img{
     flex-wrap: wrap;
     /* justify-content:center; */
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
   
 }
 .card{
+    position: unset;
     min-width: 30vh;
     margin: 1%;
     box-shadow: black 1px 2px 8px;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
 }
 
 .card-image{
@@ -34,6 +39,7 @@ img{
 .card-title{
     padding: 3px;
     margin: 1%;
+    width: 30vh;
 }
 .card-body{
     max-width: 30vh;
@@ -46,7 +52,7 @@ img{
 .btn:focus{
     box-shadow: none;
 }
-.btn:hover{
+.iconBtn:hover{
     color: rgb(255, 93, 93);
 }
 
@@ -60,11 +66,15 @@ img{
     .card{
         width: 100%;
         padding: 3%;
+        
     }
     .card-body{
         max-width: 100%;
     }
     .card-image{
+        width: 100%;
+    }
+    .card-title{
         width: 100%;
     }
 }
