@@ -14,4 +14,10 @@
 
 ### Style.css
   - this file has the internal css codes.
+
+## output
+  - showing all the character's details that given in api.
+  - showing the death info if the character died.
+  - showing character's status( alive or dead).
+  - showing death count if they have.
  
