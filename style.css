@@ -72,9 +72,18 @@ img{
         max-width: 100%;
     }
     .card-image{
-        width: 100%;
+        display: unset;
+        width: 100vw;
+        height: unset;
+        max-height: 100vw ;
     }
     .card-title{
         width: 100%;
+    }
+    img{
+        height: unset;
+        width: 88vw;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
